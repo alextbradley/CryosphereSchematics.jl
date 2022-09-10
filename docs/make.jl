@@ -31,51 +31,28 @@ ENV["GKSwstype"] = "100"
 #### Organize page hierarchies
 #####
 
-example_pages = [
-    "One-dimensional planar flow"    => "generated/planar_one_dimensional_flow.md",
-    "Flow over a bumpy bed"          => "generated/bumpy_bed.md",
-    "Two-dimensional flow with overdeepened bed" => "generated/overdeepened_bed.md" ,
-    "Melt rate parametrizations" => "generated/melt_rate_parametrizations.md" 
-]
-
-
-data_structure_pages = [
-    "Overview" => "data_structure/overview.md"
-    "Simulations" => "data_structure/simulations.md"
-    "Models" => "data_structure/model.md"
-    "Timestepping Parameters" => "data_structure/timestepping_params.md"
-    "Output Writing" => "data_structure/output_writing.md"
-    "Grid" => "data_structure/grid.md"
-    "Solver Parameters" => "data_structure/solver_parameters.md"
-    "Physical Paramters" => "data_structure/params.md"
-    "Initial Conditions" => "data_structure/initial_conditions.md"
-    "Fields" => "data_structure/fields.md"
-    "Melt Rate Models" => "data_structure/melt_rate_models.md"
-]
-
-
-physics_pages = [
-    "Overview" => "physics/overview.md"
-    "Governing Equations" => "physics/governing_equations.md"
-    "Melt Rates" => "physics/melting.md"
-    #"Calving" => "physics/calving.md"
-    #"Damage" => "physics/damage.md"
-]
-
-#numerics_pages = [
-#    "Numerical Implementation" => "numerical_procedure/numerical_procedure.md"
+#example_pages = [
+#    "Example 1"    => "generated/example_one.md",
+#    "Example 2"    => "generated/example_two.md",
+#    "Example 3"    => "generated/example_three.md",
 #]
 
+ice_sheets_pages = ["Marine Ice Sheets" => "pages/marine_ice_sheets.md"
+                    "Grounding Lines" => "pages/grounding_lines.md"]
+
+
+ice_ocean_pages = ["Subglacial Plumes" => "pages/subglacial_plumes.md",
+                    "Ice Ocean Boundary Layer" => "pages/ice_ocean_boundary_layer.md"]
+
+
+
+
 pages = [
-    "Home" => "index.md",
-    "Installation instructions" => "installation_instructions.md",
-    "Examples" => example_pages,
-    "Physics" => physics_pages,
-    "Numerical Implementation" => "numerical_procedure/numerical_procedure.md",
-    "WAVI Setup" => data_structure_pages,
-   # "Simulation tips" => "simulation_tips.md",
-    "MITgcm coupling" => "mitgcm_coupling.md",
-    "Contact us" => "contact.md",
+    "Home" => "home.md",
+    "About" => "about.md",
+    "Ice Sheets" => ice_sheets_pages,
+    "Ice-Ocean" => ice_ocean_pages,
+    "Submit A Schematics" => "submit.md",
     "References" => "references.md",
 ]
 
@@ -93,11 +70,11 @@ format = Documenter.HTML(
 
 
 makedocs(bib,
-  sitename = "WAVI.jl",
+  sitename = "Cryosphere Schematics",
    authors = "Alexander Bradley",
     format = format,
      pages = pages,
-   modules = [WAVI],
+   modules = [CryosphereSchematics],
    doctest = false,
     strict = false,
      clean = false,
