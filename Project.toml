@@ -1,0 +1,4 @@
+name = "CryosphereSchematics"
+uuid = "a07ad45a-004a-4416-864f-05d9b3eb32dd"
+authors = ["Alex Bradley <36222451+alextbradley@users.noreply.github.com>"]
+version = "0.1.0"
