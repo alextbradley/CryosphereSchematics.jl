@@ -2,6 +2,7 @@ push!(LOAD_PATH,"../src/")
 using Documenter
 using DocumenterCitations
 using Literate 
+using CryosphereSchematics
 
 bib_filepath = joinpath(dirname(@__FILE__), "cryosphere_schematics.bib")
 bib = CitationBibliography(bib_filepath)
@@ -48,7 +49,7 @@ ice_ocean_pages = ["Subglacial Plumes" => "pages/subglacial_plumes.md",
 
 
 pages = [
-    "Home" => "home.md",
+    "Home" => "index.md",
     "About" => "about.md",
     "Ice Sheets" => ice_sheets_pages,
     "Ice-Ocean" => ice_ocean_pages,
