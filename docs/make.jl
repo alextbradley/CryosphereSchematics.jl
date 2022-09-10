@@ -83,3 +83,6 @@ makedocs(bib,
 )
 #makedocs(sitename="My Documentation")
 
+deploydocs(;
+    repo="github.com/alextbradley/CryosphereSchematics",
+)
