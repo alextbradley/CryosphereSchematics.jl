@@ -85,5 +85,6 @@ makedocs(bib,
 
 deploydocs(;
     repo="github.com/alextbradley/CryosphereSchematics.jl.git",
+    devbranch="main",
     versions = nothing
 )
