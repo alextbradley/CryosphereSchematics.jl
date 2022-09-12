@@ -84,6 +84,10 @@ makedocs(bib,
 #makedocs(sitename="My Documentation")
 
 deploydocs(;
-    repo="github.com/alextbradley/CryosphereSchematics",
+    repo="github.com/alextbradley/CryosphereSchematics.jl",
+    devbranch = "main",
+    target = "build",
+    branch = "gh-pages",
     versions = nothing
 )
+
