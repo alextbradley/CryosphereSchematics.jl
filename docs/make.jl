@@ -43,7 +43,7 @@ ENV["GKSwstype"] = "100"
 #]
 
 ice_sheets_pages = ["Ice Sheets" => "pages/ice_sheets/ice_sheets.md"]
-ocean_pages = ["Oceans" => "pages/ocean/oceans.md"]
+ocean_pages = ["Oceans" => "pages/oceans/oceans.md"]
 ice_shelves_pages = ["Ice Shelves" => "pages/ice_shelves/ice_shelves.md"]
 solid_precipitation_pages = ["Solid Precipitation" => "pages/solid_precipitation/solid_precipitation.md"]
 lake_and_river_ice_pages = ["Lake and River Ice" => "pages/lake_and_river_ice/lake_and_river_ice.md"]
