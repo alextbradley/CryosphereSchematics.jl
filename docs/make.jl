@@ -42,12 +42,13 @@ ENV["GKSwstype"] = "100"
 #    "Example 3"    => "generated/example_three.md",
 #]
 
-ice_sheets_pages = ["Marine Ice Sheets" => "pages/marine_ice_sheets.md"
-                    "Grounding Lines" => "pages/grounding_lines.md"]
-
-
-ice_ocean_pages = ["Subglacial Plumes" => "pages/subglacial_plumes.md",
-                    "Ice Ocean Boundary Layer" => "pages/ice_ocean_boundary_layer.md"]
+ice_sheets_pages = ["Ice Sheets" => "pages/ice_sheets/ice_sheets.md"]
+ocean_pages = ["Oceans" => "pages/ocean/oceans.md"]
+ice_shelves_pages = ["Ice Shelves" => "pages/ice_shelves/ice_shelves.md"]
+solid_precipitation_pages = ["Solid Precipitation" => "pages/solid_precipitation/solid_precipitation.md"]
+lake_and_river_ice_pages = ["Lake and River Ice" => "pages/lake_and_river_ice/lake_and_river_ice.md"]
+permafrost_pages =  ["Permafrost" => "pages/permafrost/permafrost.md"]
+glacier_pages =  ["Permafrost" => "pages/glaciers/glaciers.md"]
 
 
 
@@ -56,7 +57,12 @@ pages = [
     "Home" => "index.md",
     "About" => "about.md",
     "Ice Sheets" => ice_sheets_pages,
-    "Ice-Ocean" => ice_ocean_pages,
+    "Oceans" => ocean_pages,
+    "Ice Shelves" => ice_shelves_pages,
+    "Solid Precipitation" => solid_precipitation_pages,
+    "Lake and River Ice" => lake_and_river_ice_pages,
+    "Permafrost" => permafrost_pages,
+    "Glaciers" => glaciers_pages,
     "Submit A Schematics" => "submit.md",
     "References" => "references.md",
 ]
