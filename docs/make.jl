@@ -55,7 +55,6 @@ glacier_pages =  ["Permafrost" => "pages/glaciers/glaciers.md"]
 
 pages = [
     "Home" => "index.md",
-    "About" => "about.md",
     "Ice Sheets" => ice_sheets_pages,
     "Oceans" => ocean_pages,
     "Ice Shelves" => ice_shelves_pages,
