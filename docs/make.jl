@@ -42,6 +42,7 @@ ENV["GKSwstype"] = "100"
 #    "Example 3"    => "generated/example_three.md",
 #]
 
+# if you want subpages
 ice_sheets_pages = ["Ice Sheets" => "pages/ice_sheets/ice_sheets.md"]
 ocean_pages = ["Oceans" => "pages/oceans/oceans.md"]
 ice_shelves_pages = ["Ice Shelves" => "pages/ice_shelves/ice_shelves.md"]
@@ -65,6 +66,21 @@ pages = [
     "References" => "references.md"
 ]
 
+
+###### or single pages
+pages = [
+    "Home" => "index.md",
+    "Ice Sheets" => "pages/ice_sheets/ice_sheets.md",
+    "Oceans" => "pages/oceans/oceans.md",
+    "Ice Shelves" => "pages/ice_shelves/ice_shelves.md",
+    "Solid Precipitation" => "pages/solid_precipitation/solid_precipitation.md",
+    "Lake and River Ice" => "pages/lake_and_river_ice/lake_and_river_ice.md",
+    "Permafrost" => "pages/permafrost/permafrost.md",
+    "Glaciers" => "pages/glaciers/glaciers.md",
+    "Usage" => "usage.md",
+    "Submit A Schematic" => "submit.md",
+    "References" => "references.md"
+]
 
 #####
 ##### Build and deploy docs
