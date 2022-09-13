@@ -60,7 +60,7 @@ pages = [
     "Lake and River Ice" => lake_and_river_ice_pages,
     "Permafrost" => permafrost_pages,
     "Glaciers" => glacier_pages,
-    "Usage" => "usage.md"
+    "Usage" => "usage.md",
     "Submit A Schematics" => "submit.md",
     "References" => "references.md"
 ]
