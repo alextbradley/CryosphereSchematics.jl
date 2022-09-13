@@ -1,4 +1,5 @@
 push!(LOAD_PATH,"../src/")
+import Pkg; Pkg.add("Documenter")
 using Documenter
 using DocumenterCitations
 using Literate 
