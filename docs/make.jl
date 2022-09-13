@@ -51,8 +51,6 @@ permafrost_pages =  ["Permafrost" => "pages/permafrost/permafrost.md"]
 glacier_pages =  ["Permafrost" => "pages/glaciers/glaciers.md"]
 
 
-
-
 pages = [
     "Home" => "index.md",
     "Ice Sheets" => ice_sheets_pages,
@@ -61,9 +59,10 @@ pages = [
     "Solid Precipitation" => solid_precipitation_pages,
     "Lake and River Ice" => lake_and_river_ice_pages,
     "Permafrost" => permafrost_pages,
-    "Glaciers" => glaciers_pages,
+    "Glaciers" => glacier_pages,
+    "Usage" => "usage.md"
     "Submit A Schematics" => "submit.md",
-    "References" => "references.md",
+    "References" => "references.md"
 ]
 
 
