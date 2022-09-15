@@ -53,7 +53,7 @@ glacier_pages =  ["Permafrost" => "pages/glaciers/glaciers.md"]
 
 
 pages = [
-    "Home" => "index.md",
+    "Home" => "home/index.md",
     "Ice Sheets" => ice_sheets_pages,
     "Oceans" => ocean_pages,
     "Ice Shelves" => ice_shelves_pages,
@@ -69,7 +69,7 @@ pages = [
 
 ###### or single pages
 pages = [
-    "Home" => "index.md",
+    "Home" => "home/index.md",
     "Ice Sheets" => "pages/ice_sheets/ice_sheets.md",
     "Oceans" => "pages/oceans/oceans.md",
     "Ice Shelves" => "pages/ice_shelves/ice_shelves.md",

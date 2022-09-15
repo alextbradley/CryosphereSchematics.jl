@@ -7,9 +7,9 @@ To contribute a schematic to this page, see the [submission](submit.md) page. Co
 
 This page was set up by Alex Bradley [(@alextbradley)](https://github.com/alextbradley), Ryan Venturelli, and Alastair Graham. Its genesis can be traved back to a twitter conversation and a desire for procrastination:
 ```@raw html
-<img align="center" src="../assets/home/tweet.png" width="60%" />
+<img align="center" src="./assets/tweet.png" width="60%" />
 ```
-![](../assets/home/tweet.png)
+![hello](assets/tweet.png)
 
 
 
